@@ -1,3 +1,5 @@
-value = 10
-print ('Hello')
-print (value)
+from book import Book
+
+book = Book('ABC')
+print ('Novel')
+print (book.value)
